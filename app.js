@@ -29,7 +29,7 @@ app.get("/about", (req, res, next) => {
 })
 
 const port = 3000
-app.listen(port, () => console.log(`now listening on port ${port}: http://localhost:${port}/`))
+app.listen(port, () => console.log(`now listening on port ${port}: http://localhost:${port}/ or http://127.0.0.1:${port}/`))
 
 // https://en.wikipedia.org/wiki/Dwight_Schrute
 // https://www.mediawiki.org/wiki/API:Get_the_contents_of_a_page
