@@ -1,0 +1,12 @@
+body {
+    background-color: AntiqueWhite;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+div.container img {
+    width: 100%;
+}
